@@ -6,7 +6,13 @@ namespace RockPaperScissors
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string HumanPlayer, Cyborg;
+            Console.Write("Choose between ROCK, PAPER and SCISSORS:    ");
+            HumanPlayer = Console.ReadLine();
+            Cyborg = Cyborg.ToUpper();
+
+            Console.WriteLine(Cyborg);
+
         }
     }
 }
